@@ -741,7 +741,7 @@ const json = [
 ];
 
 document.addEventListener("DOMContentLoaded", function() {
-  fetch("https://api.github.com/users/EmmanuelDemey/repos")
+  fetch("https://api.github.com/users/lemak243/repos")
 	.then(response => response.json())
     .then(json => generateUI(json));
 
