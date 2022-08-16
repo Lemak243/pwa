@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.querySelector(".notification").removeAttribute("hidden");
   });
 
-  fetch("https://api.github.com/users/lemak243/repos")
+  fetch("https://api.github.com/users/EmmanuelDemey/repos")
     .then((response) => response.json())
     .then((json) => generateUI(json));
 });
